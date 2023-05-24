@@ -1,12 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artist Page</title>
+  <link rel="stylesheet" href="artists.css">
 </head>
 <body>
-    
+  <header>
+    <nav>
+      <ul>
+        <li><a href="proiect.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Artists &#9662;</a>
+          <ul class="dropdown-menu">
+            <li><a href="artist1.html">John Smith</a></li>
+            <li><a href="artist2.html">Emily Johnson</a></li>
+            <li><a href="artist3.html">Alexander Stein</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Exhibitions &#9662;</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Exhibition 1</a></li>
+            <li><a href="#">Exhibition 2</a></li>
+            <li><a href="#">Exhibition 3</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="artist-profile">
+      <div class="artist-image">
+        <img src=https://chatelaine.com/wp-content/uploads/2020/07/female-artists-canada-quinn-rockliff.jpg alt="Artist 1">
+      </div>
+      <div class="artist-info">
+        <h2>Emily Johnson</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices, nisi sed tincidunt rutrum, neque nunc aliquet sapien, a tempus justo mauris et orci.</p>
+        <p>Etiam mattis urna vitae tortor eleifend, a eleifend nibh rhoncus. Proin aliquam mauris at neque vulputate, in molestie nisl bibendum.</p>
+      </div>
+    </section>
+
+    <section class="artworks">
+      <h2>Artworks by Emily Johnson</h2>
+      <div class="artwork" id = "artwork7">
+        <img src="https://www.metmuseum.org/-/media/images/about-the-met/collection-areas/drawings-and-prints/materials-and-techniques/drawing/pastel/pastel-button.jpg?sc_lang=en" alt="Artwork 1">
+        <h3>"A touch of light"</h3>
+        <p>Description of Artwork 1</p>
+      </div>
+      <div class="artwork" id = "artwork8">
+        <img src="https://i.etsystatic.com/14520354/r/il/05ba48/2806145256/il_fullxfull.2806145256_1o0d.jpg" alt="Artwork 2">
+        <h3>"Etheral Blossoms"</h3>
+        <p>Description of Artwork 2</p>
+      </div>
+      <div class="artwork" id = "artwork9">
+        <img src="https://i.etsystatic.com/5895127/r/il/855c7c/3176450198/il_1080xN.3176450198_nr6b.jpg" alt="Artwork 3">
+        <h3>"Mystic Reflections"</h3>
+        <p>Description of Artwork 3</p>
+      </div>
+      <div class="artwork" id = "artwork10">
+        <img src="https://i.etsystatic.com/5895127/r/il/2fabf4/4082208410/il_340x270.4082208410_gzpz.jpg" alt="Artwork 1">
+        <h3>"Whimsical Wonder"</h3>
+        <p>Description of Artwork 1</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Art Gallery Showcase. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>

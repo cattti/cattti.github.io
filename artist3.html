@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artist Page</title>
+  <link rel="stylesheet" href="artists.css">
 </head>
 <body>
-    
+  <header>
+    <nav>
+      <ul>
+        <li><a href="proiect.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Artists &#9662;</a>
+          <ul class="dropdown-menu">
+            <li><a href="artist1.html">John Smith</a></li>
+            <li><a href="artist2.html">Emily Johnson</a></li>
+            <li><a href="artist3.html">Alexander Stein</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Exhibitions &#9662;</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Exhibition 1</a></li>
+            <li><a href="#">Exhibition 2</a></li>
+            <li><a href="#">Exhibition 3</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="artist-profile">
+      <div class="artist-image">
+        <img src=https://st.depositphotos.com/1049680/56678/i/600/depositphotos_566781884-stock-photo-young-hispanic-artist-man-smiling.jpg alt="Artist 1">
+      </div>
+      <div class="artist-info">
+        <h2>Alexander Stein</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices, nisi sed tincidunt rutrum, neque nunc aliquet sapien, a tempus justo mauris et orci.</p>
+        <p>Etiam mattis urna vitae tortor eleifend, a eleifend nibh rhoncus. Proin aliquam mauris at neque vulputate, in molestie nisl bibendum.</p>
+      </div>
+    </section>
+
+    <section class="artworks">
+      <h2>Artworks by Alexander Stein</h2>
+      <div class="artwork" id = "artwork11">
+        <img src="https://thevirtualinstructor.com/blog/wp-content/uploads/2019/12/finishing-touches-to-the-landscape.jpg" alt="Artwork 1">
+        <h3>"Floral Delight"</h3>
+        <p>Description of Artwork 1</p>
+      </div>
+      <div class="artwork" id = "artwork12">
+        <img src="https://www.gibbesmuseum.org/news/wp-content/uploads/2014/03/No-Agenda-2.jpg" alt="Artwork 2">
+        <h3>"No Agenda"</h3>
+        <p>Description of Artwork 2</p>
+      </div>
+      <div class="artwork" id = "artwork13">
+        <img src="https://i.pinimg.com/236x/1b/68/1f/1b681feb3f44536f3ff7b304ca6190e6--pastel-paintings-art-paintings.jpg" alt="Artwork 3">
+        <h3>"Pastel dreams"</h3>
+        <p>Description of Artwork 3</p>
+      </div>
+      <div class="artwork" id = "artwork14">
+        <img src="https://3.bp.blogspot.com/-cxl2-Xm2Qc4/VvaXGupXhgI/AAAAAAAAs8Q/fdKq2hsOAUwq-Mwk9e670_3gR45tRdiLg/s1600/P1150950.jpg" alt="Artwork 1">
+        <h3>"Serene seascape"</h3>
+        <p>Description of Artwork 1</p>
+      </div>
+      <div class="artwork" id = "artwork15">
+        <img src="https://2.bp.blogspot.com/-6w3lZw8KzTU/VgMHbyqNDrI/AAAAAAAArGo/fCRQbtKcyJY/s1600/P1150068.jpg" alt="Artwork 1">
+        <h3>"Summit Reflections"</h3>
+        <p>Description of Artwork 1</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Art Gallery Showcase. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>

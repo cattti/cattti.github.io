@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artist Page</title>
+  <link rel="stylesheet" href="artists.css">
 </head>
 <body>
-    
+  <header>
+    <nav>
+        <ul>
+          <li><a href="proiect.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#">Artists &#9662;</a>
+            <ul class="dropdown-menu">
+              <li><a href="artist1.html">John Smith</a></li>
+              <li><a href="artist2.html">Emily Johnson</a></li>
+              <li><a href="artist3.html">Alexander Stein</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Exhibitions &#9662;</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Exhibition 1</a></li>
+              <li><a href="#">Exhibition 2</a></li>
+              <li><a href="#">Exhibition 3</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <main>
+    <section class="artist-profile">
+      <div class="artist-image">
+        <img src="https://media.istockphoto.com/id/1206504307/photo/portrait-of-a-smiling-mature-painter-sitting-in-his-studio-and-looking-away.jpg?s=612x612&w=0&k=20&c=q5654q4vNxPHPGLGOred1GTRH5B2DzfkkUot-KYNOlE=" alt="Artist 1">
+      </div>
+      <div class="artist-info">
+        <h2>John Smith</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices, nisi sed tincidunt rutrum, neque nunc aliquet sapien, a tempus justo mauris et orci.</p>
+        <p>Etiam mattis urna vitae tortor eleifend, a eleifend nibh rhoncus. Proin aliquam mauris at neque vulputate, in molestie nisl bibendum.</p>
+      </div>
+    </section>
+
+    <section class="artworks">
+      <h2>Artworks by John Smith</h2>
+      <div class="artwork" id = "artwork1">
+        <img src="https://i.etsystatic.com/14634313/c/1957/1555/0/409/il/fdd822/2792770032/il_340x270.2792770032_hefx.jpg" alt="Artwork 1">
+        <h3>"Far away"</h3>
+        <p>Description of Artwork 1</p>
+      </div>
+      <div class="artwork" id = "artwork2">
+        <img src="https://cdn.pixabay.com/photo/2020/05/25/15/06/soft-pastel-5219000_960_720.jpg" alt="Artwork 2">
+        <h3>"Dreamscapes"</h3>
+        <p>Description of Artwork 2</p>
+      </div>
+      <div class="artwork" id = "artwork3">
+        <img src="https://s32625.pcdn.co/wp-content/uploads/2011/06/Fall-Splendor-Pastel-16-x-2.jpg.optimal.jpg" alt="Artwork 3">
+        <h3>"Fall Splendor"</h3>
+        <p>Description of Artwork 3</p>
+      </div>
+      <div class="artwork" id = "artwork4">
+        <img src="https://i.pinimg.com/originals/94/48/cd/9448cd680f6e47617a9fbbce3bfb5d1f.jpg" alt="Artwork 1">
+        <h3>"Eternal Tranquility"</h3>
+        <p>Description of Artwork 1</p>
+      </div>
+      <div class="artwork" id = "artwork5">
+        <img src="https://i.pinimg.com/originals/92/24/19/922419746ed7b55c3666ee9392fa49c7.jpg" alt="Artwork 2">
+        <h3>"Forest's Whispers"</h3>
+        <p>Description of Artwork 2</p>
+      </div>
+      <div class="artwork" id = "artwork6">
+        <img src="https://wenaha.com/wp-content/uploads/2018/05/Bouchart-Pond-reduced-1000x423.jpg" alt="Artwork 3">
+        <h3>"Bouchard Pond Reflections"</h3>
+        <p>Description of Artwork 3</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Art Gallery Showcase. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
