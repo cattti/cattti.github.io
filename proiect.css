@@ -1,11 +1,11 @@
-/* Reset some default styles */
+
 body, ul, li {
     margin: 0;
     padding: 0;
     list-style: none;
   }
   
-  /* Basic styling */
+ 
   body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -113,7 +113,7 @@ body, ul, li {
   }
   
   
-  /* Responsive styles */
+
   @media (max-width: 768px) {
     header {
       padding: 5px;
@@ -146,7 +146,7 @@ body, ul, li {
     margin-left: 1rem;
   }
 
-  /* CSS animation 
+ 
 @keyframes myAnimation {
     0% {
       background-color: red;
@@ -162,9 +162,9 @@ body, ul, li {
     }
   }
   
-  .element {
+  .body {
     animation: myAnimation 3s infinite;
   }
-   */
+   
   
   

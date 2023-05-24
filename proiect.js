@@ -138,4 +138,28 @@ function randomizeGallery() {
   });
 
 
-  
+
+document.addEventListener("DOMContentLoaded", function() {
+var element = document.getElementById('link1');
+var computedStyle = window.getComputedStyle(element);
+
+var color = computedStyle.color;
+var fontSize = computedStyle.fontSize;
+
+console.log('Color:', color);
+console.log('Font Size:', fontSize);
+
+
+var element = document.getElementById('link1');
+var rect = element.getBoundingClientRect();
+
+var top = rect.top;
+var left = rect.left;
+var width = rect.width;
+var height = rect.height;
+
+console.log('Top:', top);
+console.log('Left:', left);
+console.log('Width:', width);
+console.log('Height:', height);
+});

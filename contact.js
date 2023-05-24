@@ -1,6 +1,5 @@
 
 //validez date din formular cu regex + PreventDefault
-
 document.addEventListener('DOMContentLoaded', function() {
     var contactForm = document.getElementById('contactForm');
 
@@ -8,8 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
       var nameInput = document.getElementById('name');
       var emailInput = document.getElementById('email');
 
-      var namePattern = /^[a-zA-Z\s]+$/; // Regex pattern for name (letters and spaces only)
-      var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Regex pattern for email
+      var namePattern = /^[a-zA-Z\s]+$/; 
+      var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; 
 
       if (!namePattern.test(nameInput.value)) {
         event.preventDefault();

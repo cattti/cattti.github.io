@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vote</title>
+  <link rel="stylesheet" href="vote.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="proiect.html">Home</a></li>
+            <li class="dropdown">
+              <a href="#">Artists &#9662;</a>
+              <ul class="dropdown-menu">
+                <li id = "link1"><a href="artist1.html">John Smith</a></li>
+                <li><a href="artist2.html">Emily Johnson</a></li>
+                <li><a href="artist3.html">Alexander Stein</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="vote.html">Vote!</a>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+  <main>
+    <section class="vote">
+      <h2>Vote for your favorite artwork!</h2>
+      <form action="/vote" method="post">
+        <div>
+          <label for="artist">Artist:</label>
+          <input type="text" id="artist" name="artist" required>
+        </div>
+        <div>
+          <label for="picture">Picture:</label>
+          <input type="text" id="picture" name="picture" required>
+        </div>
+        <button type="submit">Vote</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p id = "pFooter" > &copy; 2023 Art Gallery Showcase. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
